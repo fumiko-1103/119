@@ -1,0 +1,979 @@
+/*
+Theme Name: BGN
+Theme URI: テーマの URL
+Author:作者名/会社名
+Author URI: 作者/会社の URL
+Description: テーマの説明
+Version: テーマのバージョン
+*/
+@charset "utf-8";
+
+
+/* 全てのページ */
+
+/* 全てのフォント ・カラー*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #0c1c2f;
+
+}
+
+/* トップの BGN フォント */
+
+/* ヘッダー */
+
+header {
+  margin: auto 0;
+}
+
+/* 便利屋 B・G・N ヘッダー */
+
+.header-inner {
+  background-color: #0c1c2f;
+  padding: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+
+/* ヘッダーフリーダイヤル */
+
+.bgn-call h2 {
+  color: #fff;
+}
+
+/* ナビゲーション ヘッダー */
+
+.site-menu ul {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #111001;
+
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #0b2b53;
+  text-align: center;
+}
+
+/* フッターフリーダイヤル */
+
+.bgn-call2 {
+  background-color: #0c1c2f;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bgn-call2 a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bgn-call2 h2 {
+  margin: 10px;
+  color: #fff;
+}
+
+.free-cool h2 {
+  margin: 10px 0 30px 0;
+  color: #fff;
+}
+
+/* フッター便利屋グループ何でもやります コピーライト */
+
+.bgn-call2 {
+  margin-top: 50px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #0c1c2f;
+  color: #fff;  
+}
+
+.bgn-call2 .bold {
+  font-size: 28px;
+  color: #877803;
+}
+
+.contact-footer-copy {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* 電話アイコン */
+
+.bi {
+  color: #877803;
+  font-size: 1.3em;
+}
+
+
+/* 全ページここまで */
+
+
+/* ホームページ */
+
+/* ホームメイン画像 */
+
+.home-top-container {
+  background-color: #111001;
+}
+
+.home-top-container p {
+  font-family: 'Limelight', sans-serif;
+  letter-spacing: 1em;
+  text-align: center;
+  width: 100%;
+  color: #877803;
+}
+
+/* ご挨拶 */
+
+.home-greeting {
+  margin: 40px auto;
+  padding: 0 40px;
+}
+
+.home-span-a {
+  font-weight: bold;
+}
+
+.home-greeting h2 {
+  font-weight: bold;
+  padding-bottom: 4px;
+  margin-bottom: 30px;
+}
+
+.home-greeting h3 {
+  font-weight: bold;
+  padding: 50px 0 50px 20px;
+  display: flex;
+  justify-content: end;
+}
+
+/* ここまでホームページ */
+
+
+/* サービスのページ */
+
+/* サービスの画像 */
+.service-top-container2 {
+  position: relative;
+}
+
+.service-top-container2 p {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.service-top-container2 img {
+  width: 100%;
+}
+
+/* サービス内容 */
+
+.service-list h2 {
+  margin: 30px;
+}
+
+/* サービス内容一覧 リスト*/
+
+.service-list-box1 .service-list-box-2 {
+  margin: 50px auto;
+  padding-left: 40px;
+}
+
+.service-list-box1 ul {
+  padding-left: 50px;
+}
+
+.service-list-box2 ul {
+  padding-left: 50px;
+}
+
+.service-list-box3 ul {
+  padding-left: 50px;
+}
+
+.service-list-box4 ul {
+  padding-left: 50px;
+}
+
+.service-list-box5 li {
+  color: #0b2b53;
+  font-weight: bold;
+}
+
+/* こんな事もやってます */
+
+.service-list-side h2 {
+  margin: 30px;
+}
+
+/*サービス お困りコメント */
+
+.service-list-box5 {
+  width: 100%;
+  margin: 80px 0;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  border-top: solid 3px #0c1c2f;
+  border-bottom: solid 3px #0c1c2f;
+}
+
+/* サービス実績・信頼がある */
+
+.service-coment-container h2 {
+  padding: 0 55px;
+  text-align: center;
+}
+
+
+/* サービス 3 個 のコメント*/
+.service-list-box6 {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.service-text1 p {
+  margin: 30px 0;
+  padding: 35px 0 35px 50px;
+  width: 255px;
+  height: 150px;
+  background-color: #0b2b53;
+  border-radius: 30px;
+  box-shadow: 0 0 3px #877803;
+  font-size: 16px;
+  text-align: start;
+  color: #fff;
+}
+
+.service-text2 p {
+  margin: 30px 0;
+  padding: 25px 25px 0 60px;
+  width: 255px;
+  height: 150px;
+  background-color: #0b2b53;
+  border-radius: 30px;
+  box-shadow: 0 0 3px #877803;
+  font-size: 16px;
+  text-align: start;
+  color: #fff;
+}
+
+.service-text3 p {
+  margin: 30px 0;
+  padding: 35px 0 35px 50px;
+  width: 255px;
+  height: 150px;
+  background-color: #0b2b53;
+  border-radius: 30px;
+  box-shadow: 0 0 3px #877803;
+  font-size: 16px;
+  text-align: start;
+  color: #fff;
+}
+
+/* ここまでサービスのページ */
+
+
+/* ここから料金ページ */
+
+/*料金表 画像トップスライド画像 */
+
+/* 画像設定 */
+
+.price-slide1 {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;  
+}
+
+.price-slide1 img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+/* スライド設定 */
+
+.price-slide1 .slide-wrap {
+  width: 600%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  animation: css-carousel-slider6 30s infinite;
+  animation-delay: 2s;
+}
+
+.price-slide1 .slide {
+  width: 100%;
+}
+
+/* スライダーアニメーションの設定 */
+
+@keyframes css-carousel-slider6 {
+  0% {
+    transform: translateX(0);
+  }
+
+  13.6% {
+    transform: translateX(calc(1 / 6 * -100%));
+  }
+
+  16.6% {
+    transform: translateX(calc(1 / 6 * -100%));
+  }
+
+  30.3% {
+    transform: translateX(calc(2 / 6 * -100%));
+  }
+
+  33.3% {
+    transform: translateX(calc(2 / 6 * -100%));
+  }
+
+  46.9% {
+    transform: translateX(calc(3 / 6 * -100%));
+  }
+
+  49.9% {
+    transform: translateX(calc(3 / 6 * -100%));
+  }
+
+  63.6% {
+    transform: translateX(calc(4 / 6 * -100%));
+  }
+
+  66.6% {
+    transform: translateX(calc(4 / 6 * -100%));
+  }
+
+  80.3% {
+    transform: translateX(calc(5 / 6 * -100%));
+  }
+
+  83.3% {
+    transform: translateX(calc(5 / 6 * -100%));
+  }
+
+  97% {
+    transform: translateX(calc(6 / 6 * -100%));
+  }
+
+  100% {
+    transform: translateX(calc(6 / 6 * -100%));
+  }
+}
+
+@keyframes css-carousel-slider-main6 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  83.3% {
+    transform: translateX(100%);
+  }
+
+  97% {
+    transform: translateX(0%);
+  }
+}
+
+/* フッター前スライド画像 */
+
+/* 画像設定 */
+
+.price-slide2 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.price-slide2 img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+/* スライド設定 */
+.price-slide2 .slide2-wrap {
+  width: 600%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  animation: css-carousel-slider6 30s infinite;
+  animation-delay: 2s;
+}
+
+.price-slide2 .slide2 {
+  width: 100%;
+}
+
+/* スライダーアニメーションの設定 */
+
+@keyframes css-carousel-slider6 {
+  0% {
+    transform: translateX(0);
+  }
+
+  13.6% {
+    transform: translateX(calc(1 / 6 * -100%));
+  }
+
+  16.6% {
+    transform: translateX(calc(1 / 6 * -100%));
+  }
+
+  30.3% {
+    transform: translateX(calc(2 / 6 * -100%));
+  }
+
+  33.3% {
+    transform: translateX(calc(2 / 6 * -100%));
+  }
+
+  46.9% {
+    transform: translateX(calc(3 / 6 * -100%));
+  }
+
+  49.9% {
+    transform: translateX(calc(3 / 6 * -100%));
+  }
+
+  63.6% {
+    transform: translateX(calc(4 / 6 * -100%));
+  }
+
+  66.6% {
+    transform: translateX(calc(4 / 6 * -100%));
+  }
+
+  80.3% {
+    transform: translateX(calc(5 / 6 * -100%));
+  }
+
+  83.3% {
+    transform: translateX(calc(5 / 6 * -100%));
+  }
+
+  97% {
+    transform: translateX(calc(6 / 6 * -100%));
+  }
+
+  100% {
+    transform: translateX(calc(6 / 6 * -100%));
+  }
+}
+
+@keyframes css-carousel-slider-main6 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  83.3% {
+    transform: translateX(100%);
+  }
+
+  97% {
+    transform: translateX(0%);
+  }
+}
+
+/* 料金表コメント */
+
+.price h2 {
+  margin: 30px 0;
+}
+
+.price-coment {
+  padding: 0 50px 50px;
+  text-align: center;
+}
+
+/* 料金表テーブル */
+
+.price-container {
+  margin-bottom: 50px;
+}
+
+.price-table {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 300px;
+}
+
+.price-table th,
+.price-table td {
+  padding: 5px;
+  border: 1px solid #0c1c2f;
+  text-align: center;
+  width: 200px;
+}
+
+.price-table td {
+  vertical-align: middle;
+}
+
+/* 料金ページここまで */
+
+
+/* エリアページここから */
+
+/* エリアトップ画像 */
+
+.area-doar img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.area-doar {
+  position: relative;
+}
+
+.area-doar p {
+  position: absolute;
+  top: 53%;
+  left: 85%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-family: 'Limelight', sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  color: #0c1c2f;
+}
+
+/* 主な活動エリア */
+
+.area-coment {
+  margin: 30px auto;
+}
+
+/* エリアリスト */
+
+.area- ul {
+  line-height: 1.8;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* エリア画像 */
+
+.area-arrow img {
+  max-width: 250px;
+  margin-top: 30px;
+}
+
+.area-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+/* (株)BGN 会社案内 */
+
+.area-company {
+  margin-bottom: 30px;
+}
+
+/* エリア会社案内テーブル */
+
+.area-guidance {
+  max-width: 330px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.area-guidance th,
+.area-guidance td {
+  border: 1px solid #0b2b53;
+  padding: 7px;
+  text-align: center;
+}
+
+.area-guidance th {
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.area-guidance td {
+  width: 500px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+/* エリアページここまで */
+
+
+/* お問い合わせページ */
+
+/* モップ画像 */
+
+.contact-moppu img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.contact-moppu {
+  position: relative;
+}
+
+.contact-moppu p {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-family: 'Limelight', sans-serif;
+  font-weight: bold;
+  line-height: 2.5em;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* お問い合わせ */
+
+.contact-container {
+  margin-top: 50px;
+}
+
+/* BGN フォーム */
+
+.contact-bgn-form {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+/* 作業までの流れ */
+
+.contact-work-container {
+  margin-top: 100px;
+}
+
+/* 作業までの流れ 1～5 */
+
+.contact-flow {
+  margin: 20px 0 30px 0;
+  padding-left: 40px;
+}
+
+.contact-flow li {
+  margin: 0 auto;
+  max-width: 350px;
+  line-height: 2;
+}
+
+/* 支払い方法 */
+
+.contact-pay {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+
+
+
+/* 吉濱コーナー */
+
+.web-contact {
+  margin-top: 300px;
+}
+
+.wed-cotact h2 {
+  color: #0c1c2f;
+  font-weight: bold;
+}
+
+.web-contact h3 {
+  margin-top: 30px;
+  text-align: center;
+  color: #0c1c2f;
+  font-weight: bold;
+}
+
+.web-container {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.hima {
+  margin-top: 50px;
+  max-width: 370px;
+  position: relative;
+}
+
+.hima h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #111001;
+  font-family: 'Syne', sans-serif;
+}
+
+.hima p {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  font-size: 14px;
+  color: #3d0202;
+  font-family: 'Syne', sans-serif;
+}
+
+/* 吉濱フォーム */
+
+form div {
+  margin: 50px 0 30px 0;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  color: #0c1c2f;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background: #fff;
+  border: 1px #0c1c2f solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type="text"] input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 480px;
+}
+
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 50px;
+  line-height: 3;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #0c1c2f;
+  color: #fff;
+}
+
+/* 吉濱フォームここまで */
+
+/* お問い合わせページここまで */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* ヘッダー便利屋 BGN */
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+
+  /* ナビゲーション ヘッダー */
+
+  .site-menu ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* ホームトップ画像 */
+
+  .home-top-container p {
+    font-size: 30px;
+  }
+
+  /*サービストップ画像  */
+
+  .service-top-container2 p {
+    font-size: 25px;
+  }
+
+  /* サービスリスト 1-2*/
+
+  .service-list-box1-2 {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  /* サービスリスト 3-4 */
+
+  .service-list-box3-4 {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .service-list-box1 .service-list-box-2 {
+    margin: 50px auto;
+    padding-left: 40px;
+  }
+
+  /* サービス内容一覧 リスト*/
+
+  .service-list-box1 .service-list-box-2 {
+    margin: 50px auto;
+    padding-left: 40px;
+  }
+
+  .service-list-box1 ul {
+    padding-left: 40px;
+  }
+
+  .service-list-box2 ul {
+    padding-left: 40px;
+  }
+
+  .service-list-box3 ul {
+    padding-left: 40px;
+  }
+
+  .service-list-box4 ul {
+    padding-left: 40px;
+  }
+
+  .service-list-box5 li {
+    color: #0b2b53;
+    font-weight: bold;
+  }
+
+  /* 料金表 */
+
+  .item-label {
+    font-size: 15px;
+  }
+
+  .price-table {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+  }
+
+  /* エリアトップ画像 */
+
+  .area-doar p {
+    font-size: 1.4em;
+  }
+
+  /* エリア方向画像 */
+
+  .area-arrow img {
+    max-width: 350px;
+  }
+
+  /* 会社案内 */
+
+  .area-guidance {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  /* コンタクトトップ画像 */
+
+  .contact-moppu p {
+    font-size: 30px;
+  }
+
+  /* BGN のフォーム */
+
+  .contact-bgn-form {
+    margin-left: 250px;
+  }
+
+  /* コンタクトひまわり中のフォント */
+
+  .hima h2 {
+    top: 10px;
+    left: 30px;
+    font-size: 1.8em;
+  }
+
+  .hima p {
+    top: 150px;
+    left: 60px;
+  }
+
+}
